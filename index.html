@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- Bootstrap 5 CDN Links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="75">
+    <!-- Navbar section -->
+    <header class="header_wrapper">
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <span class="navbar-brand ">Portfolio</span>
+
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <!-- <i class="fas fa-stream  "></i>
+                    <i class="bi bi-three-dots-vertical"></i> -->
+                    <i class="bi bi-list navbar-toggler-icon"></i>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav menu-navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#about" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Projects
+                            </a>
+                            <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item " href="https://dharshanraj1921.github.io/TeamWork/">Startup
+                                        website</a></li>
+                                <li><a class="dropdown-item" href="#">Food application</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Navbar section exit -->
+
+    <!-- Banner section -->
+    <section id="home" class="banner_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center text-md-start">
+                    <h6>Hi There!!</h6>
+                    <h1>I’m Dharshan<br><span>UI Developer.</span></h1>
+                    <div class="mt-4">
+                        <li class="nav-item mt-3 mt-lg-0">
+                            <a class="main-btn bg-dark" type="button" href="#contact">Hire Me</a>
+                        </li>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Banner section exit -->
+
+    <!-- About section -->
+    <section id="about" class="about_wrapper">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+
+                <div class="col-lg-12 ps-lg-5 text-center text-lg-start">
+                    <div class="my-3 my-lg-0">
+                      
+                        <h2  class="subtitle fs-5">About Me</h2>
+
+                        <p>Hi this is Dharshan.I am a Professional UI Developer. </p>
+                    </div>
+                    <div class="pt-4">
+                        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="pills-skill-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-skill" type="button" role="tab" aria-controls="pills-skill"
+                                    aria-selected="true">Main Skills</button>
+                            </li>
+
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-education-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-education" type="button" role="tab"
+                                    aria-controls="pills-education" aria-selected="false">Education</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-skill" role="tabpanel"
+                                aria-labelledby="pills-skill-tab">
+                                <div class="single-progress">
+                                    <h6>HTML , CSS , JS</h6>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 95%"
+                                            aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                        </div>
+                                    </div>
+                                    <span class="label">95%</span>
+                                </div>
+                                <div class="single-progress">
+                                    <h6>BOOTSTRAP</h6>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 85%"
+                                            aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                        </div>
+                                    </div>
+                                    <span class="label">85%</span>
+                                </div>
+                                <div class="single-progress">
+                                    <h6>React js</h6>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 75%"
+                                            aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                        </div>
+                                    </div>
+                                    <span class="label">75%</span>
+                                </div>
+                                <div class="single-progress">
+                                    <h6>Design</h6>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 80%"
+                                            aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                        </div>
+                                    </div>
+                                    <span class="label">80%</span>
+                                </div>
+                            </div>
+
+
+                            <div class="tab-pane fade" id="pills-education" role="tabpanel"
+                                aria-labelledby="pills-education-tab">
+                                <ul class="text-start ps-0">
+                                    <li><a href="#"><p>Full Stack Web Development Course (Q-spider Institute- chrompet, chennai)</p></a></li>
+                                    <li><a href="#"><p>BTech IT<span> - Anna University -chennai</span> 2022 ( 76% ) </p> </a> </li>
+                                    <li><a href="#"> <P>(12th) Computer Science Dept<span> - vooreesh Higher Secondary School - vellore  2018 ( 67% )</span></P> </a></li>
+                                    <li><a href="#"><p> <span>(10th) vellore Government Higher secondary school </span> 2016( 80% )</p></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- About section exit -->
+
+    <!-- Services section -->
+    <section id="services" class="services_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center mb-4">
+                    <span class="subtitle">What I can do for you</span>
+                    <h2>My Awesome Service</h2>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body text-md-start text-center">
+                            <i class="bi bi-file-earmark-code text-white fs-2 mb-5 "></i>
+                           
+                            <h3>Web Development</h3>
+                            <p> A web development company helps you build a website or an application for
+                                 business or personal use. The process of creating a website varies from 
+                                one company to another, but many web development businesses follow similar procedures.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body text-md-start text-center">
+                       
+                            <i class="bi bi-phone text-white fs-2 mb-5"></i>
+                            <h3>App Development</h3>
+                            <p>A mobile app development service is most well-known for the development stage, 
+                                which includes cross-platform support, cost management, and scheduling.
+                                 App development  company is creating, application vs a service.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body text-md-start text-center">
+                            <i class="bi bi-brush text-white fs-2 mb-5"></i>
+                            <h3>Designing</h3>
+                            <p>They deal with the full product design process from ideation to testing, prototyping, and development
+                                A good logo shows what a company does and what the brand values. 
+                               creating the perfect visual brand mark for a company
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body text-md-start text-center">
+                            <i class="bi bi-bank  text-white fs-2 mb-3"></i>
+                            <h3>Digital Marketing</h3>
+                            <p>A full service marketing agency is one that can handle all of your marketing, advertising, and promotional needs across digital platforms. With a staff of experts in various disciplines, a full service marketing
+                               and efficient solutions as an integrated part of your team.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body text-md-start text-center">
+                   
+                       <i class="bi bi-chat-left-quote-fill text-white mb-5 fs-5"></i>
+                            <h3>Logo Designing</h3>
+                            <p>A logo is a symbol made up of text and images that identifies a business. creating the perfect visual brand mark for a company A good logo shows what a company does and what the brand values. 
+                                Logo design is all about creating the perfect visual brand mark for a company.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body text-md-start text-center">
+                            <i class="bi bi-front text-white fs-1 mb-3"></i>
+                            <h3>Testing</h3>
+                            <p>Testing Services means the administration and interpretation of the results of standardized instruments for the assessment,
+                                 diagnosis or evaluation of psychological or developmental disorders.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Services section exit -->
+
+
+    <!-- Contact section -->
+    <section id="contact" class="contact_wrapper p-5 mt-10">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-lg-6 order-2 order-lg-1 pe-lg-5 text-lg-start text-center">
+                    
+                    <span class="subtitle">Let's Say Hi</span>
+                    <h2>Hire Me.</h2>
+                    <div class="row call_details mb-4">
+                
+                       
+                        <label class="col-sm-3">Email:</label>
+                        <div class="col-sm-9 mb-3 mb-lg-2">
+                            <a href="mailto:dharshan192001@gmail.com">dharshan192001@gmail.com</a>
+                        </div>
+                    </div>
+                    <form>
+                        <div class="mb-4">
+                            <input type="text" class="form-control" placeholder="Your Name..." autocomplete="off">
+                        </div>
+                        <div class="mb-4">
+                            <input type="number" class="form-control" placeholder="Your Phone..." autocomplete="off">
+                        </div>
+                        <div class="mb-4">
+                            <input type="email" class="form-control" placeholder="Your Email..." autocomplete="off">
+                        </div>
+                        <div class="mb-4">
+                            <input cols="40" rows="4" class="form-control" id="message" placeholder="Write a Message..."
+                                autocomplete="off">
+                        </div>
+                        <button type="submit" class="main-btn">Submit</button>
+                    </form>
+                </div>
+                <div class="col-lg-6 order-1 mb-4 order-lg-1 mb-lg-0 mt-5 contact_img">
+                    <img src="https://ocdn.eu/pulscms-transforms/1/P8sktkuTURBXy80MzI1N2NjNC1mZGU5LTQ2ZDUtOTUxYy01NjdiYjE4OTQwN2EuanBlZ5GTBc0CgM0BQA"  class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contact section exit -->
+
+    <!-- Footer section -->
+    <section id="contact" class="footer_wrapper mt-3 mt-md-0">
+        <div class="container align-items-center">
+            <div class="row ">
+                <div class="col-lg-4 col-md-6 text-center text-md-start">
+                    <div class="footer-logo mb-3 mb-md-0">
+                        <h6>Designed by..Dharshan</h6>
+                    </div>
+                </div>
+             
+             
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer section exit -->
+
+    <!-- Bootstrap 5 JS CDN Links -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+
+    <!-- Custom Js Link -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
